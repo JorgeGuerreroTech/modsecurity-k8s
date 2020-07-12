@@ -1,0 +1,7 @@
+#Values to enable Modsecurity in Kubernetes Nginx Ingress Controller
+controller:
+  config:
+    enable-modsecurity: "true"
+    enable-owasp-modsecurity-crs: "true"
+
+  
